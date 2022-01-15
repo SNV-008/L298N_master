@@ -38,8 +38,8 @@ void L298N::motor2_forward(){
   digitalWrite(_in4, 0);  
 }
 void L298N::motor2_backward(){
-  digitalWrite(_in1, 0);
-  digitalWrite(_in2, 1);
+  digitalWrite(_in3, 0);
+  digitalWrite(_in4, 1);
 }
 void L298N::motor2_stop(){
   digitalWrite(_in3, 0);

@@ -1,5 +1,5 @@
-#ifndef L298N_H
-#define L298N_H
+#ifndef L298N_h
+#define L298N_h
 #include "Arduino.h"
 
 class L298N{

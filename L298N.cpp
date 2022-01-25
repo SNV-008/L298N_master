@@ -1,4 +1,4 @@
-#include "L298N.H"
+#include "L298N.h"
 
 L298N::L298N(int ena, int in1, int in2, int in3, int in4, int enb){
     _ena = ena;
